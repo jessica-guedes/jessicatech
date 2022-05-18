@@ -5,8 +5,8 @@
   box-sizing: border-box; 
 }
 :root{
-  --hue: 210;
-  --primary-color: hsl(var(--hue), 10%, 15%); 
+  --hue: 290;
+  --primary-color: hsl(var(--hue), 100%, 26%); 
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
   --brand-beige: hsl(39, 5%, 97%);
