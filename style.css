@@ -18,6 +18,7 @@
 
 
   font-size: 62.5%; /* 1rem = 10px */
+
 }
 
 html{
@@ -55,6 +56,7 @@ img{
 section{
   padding-block: 10rem;
 }
+
 section header h4{
   font-size: 1.4rem; /* 14px */
   font-weight: 700;
@@ -286,10 +288,10 @@ body.menu-expanded button path {
 }
 
 #home::before { /*criou o fundo antes do header*/
-  content: "";
+  content: '';
   width: 100%;
   height: calc(76% + var(--nav-height));
-  background: var(--brand-light);
+  background-color: var(--brand-light);
   display: block;
 
   position: absolute;
@@ -578,7 +580,7 @@ footer .social-links{
   }
 
   nav#navigation .menu li a {
-    transition: .4s;
+    transition: opacity .4s;
   }
   
   nav#navigation .menu li a.active,
@@ -626,7 +628,7 @@ footer .social-links{
 /*====================== HOME ============================*/
 
   #home::before{
-    height: calc(96% - var(--nav-height)) ;
+    height: calc(156% - var(--nav-height)) ;
   }
 
   #home {
