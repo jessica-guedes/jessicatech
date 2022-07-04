@@ -11,6 +11,7 @@ function onScroll() {
   activateMenuAtCurrentSection(contact)
 }
 
+
 function activateMenuAtCurrentSection(section) {
   const targetLine = scrollY + innerHeight / 2
 
