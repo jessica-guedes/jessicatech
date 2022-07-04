@@ -124,7 +124,7 @@ section .content p{
 #services .content .card circle{
   fill: var(--brand-light);
 }
-#navigation .logo path[fill*="#00856F"],
+#nav .logo path[fill*="#00856F"],
 #backToTopButton circle {
   fill: var(--primary-color);
 }
@@ -134,20 +134,20 @@ button.open-menu path[stroke*="#00856F"],
   stroke: var(--primary-color);
 }
 
-#navigation.scroll .logo path {
+#nav.scroll .logo path {
   fill: #ffffff;
 }
 
 
-#navigation.scroll button.open-menu path[stroke*="#00856F"]{
+#nav.scroll button.open-menu path[stroke*="#00856F"]{
   stroke: #ffffff;
 }
 
-body.menu-expanded #navigation .logo path[fill*="#00856F"]{/* estava com bug aqui no momento de expandir o menu estava sumindo a palavra care ai eu resolvi sozinha */
+body.menu-expanded #nav .logo path[fill*="#00856F"]{/* estava com bug aqui no momento de expandir o menu estava sumindo a palavra care ai eu resolvi sozinha */
   fill: #ffffff;
 }
 
-/*================== NAVIGATION ===================================*/
+/*================== nav ===================================*/
 
 nav{
   display: flex;
@@ -506,12 +506,12 @@ footer .social-links{
     line-height: 5.2rem;
   }
 
-/*====================== NAVIGATION ============================*/
+/*====================== nav ============================*/
 
 
 /* reset */
 
-  nav#navigation .wrapper * {
+  nav#nav .wrapper * {
     margin: 0;
     padding: 0;
     visibility: initial;
@@ -527,30 +527,30 @@ footer .social-links{
     filter: initial;
   }
 
-  nav#navigation .close-menu,
-  nav#navigation .open-menu,
-  nav#navigation .social-links{
+  nav#nav .close-menu,
+  nav#nav .open-menu,
+  nav#nav .social-links{
     display: none;
   }
 
-  nav#navigation .menu{
+  nav#nav .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 60%;
   }
 
-  nav#navigation .menu ul:nth-child(1){
+  nav#nav .menu ul:nth-child(1){
     display: flex;
     gap: 3.2rem;
   }
 
-  nav#navigation .menu ul li a {
+  nav#nav .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
   }
 
-  nav#navigation .menu a.button{
+  nav#nav .menu a.button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -563,34 +563,34 @@ footer .social-links{
     line-height: 1.8rem;
     text-transform: uppercase;
   }
-  nav#navigation .menu a.button:hover{
+  nav#nav .menu a.button:hover{
     background-color: var(--primary-color);
     border: none;
     color: #ffffff;
   }
 
-  nav#navigation.scroll .menu ul li a {
+  nav#nav.scroll .menu ul li a {
     color: var(--brand-light-2);
     opacity: 0.6;
   }
 
-  nav#navigation.scroll .menu a.button{
+  nav#nav.scroll .menu a.button{
     border-color: #ffffff;
     color: #ffffff;
   }
 
-  nav#navigation .menu li a {
+  nav#nav .menu li a {
     transition: opacity .4s;
   }
   
-  nav#navigation .menu li a.active,
-  nav#navigation .menu li a:hover{
+  nav#nav .menu li a.active,
+  nav#nav .menu li a:hover{
     opacity: 1;
     font-weight: 700;
   }
 
 
-  nav#navigation .menu li a::after{
+  nav#nav .menu li a::after{
     content: '';
     width: 0%;
     height: ;
@@ -604,22 +604,22 @@ footer .social-links{
     transition: width 0.2s;
   }
 
-  nav#navigation.scroll .menu li a::after{
+  nav#nav.scroll .menu li a::after{
     background-color: #ffffff;
   }
 
-  nav#navigation .menu li a.active::after,
-  nav#navigation .menu li a:hover::after{
+  nav#nav .menu li a.active::after,
+  nav#nav .menu li a:hover::after{
     padding-inline: 0.8rem;
     width: 100%;
     height: 2px;
   }
-  nav#navigation.scroll .menu li a.active,
-  nav#navigation.scroll .menu li a:hover{
+  nav#nav.scroll .menu li a.active,
+  nav#nav.scroll .menu li a:hover{
     opacity: 1;
   }
-  nav#navigation.scroll .menu a.button.active,
-  nav#navigation.scroll .menu a.button:hover{
+  nav#nav.scroll .menu a.button.active,
+  nav#nav.scroll .menu a.button:hover{
     background-color: var(--primary-color);
     filter: brightness(1.3);
     border: none;
