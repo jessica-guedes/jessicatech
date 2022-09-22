@@ -1,5 +1,5 @@
-# Projeto TECH :hearts:
-Aqui criei uma page para serviços de manutenção em computadores e você pode acessar o projeto clicando <a href="https://jessicatech.vercel.app/">aqui.</a>
+# Projeto Tech :purple_heart:
+Aqui criei uma Landing page para serviços de manutenção em computadores e você pode acessar o projeto clicando <a href="https://jessicatech.vercel.app/">aqui.</a>
 
 ##  :rocket: Demonstração
 
@@ -7,14 +7,10 @@ Aqui criei uma page para serviços de manutenção em computadores e você pode 
 
 
 <p align ="left">
-    <img width = "600" height = "350" src= "src/assets/ignitelab-event-plataform.gif">
+    <img width = "700" height = "400" src= "assets/jessicatech1.gif">
 <p>
 
 <br>
-
-<p align ="left">
-    <img width = "600" height = "350" src= "src/assets/ignitelab-event-plataform2.gif">
-<p>
 
 
 ## :computer: Tecnologias
@@ -27,4 +23,4 @@ Aqui criei uma page para serviços de manutenção em computadores e você pode 
 
 ##
 
-<p align ="center">Feito por mim com :hearts: junto com a Rocketseat :rocket: na NLW Return</p>
+<p align ="center">Feito por mim com :purple_heart: junto com a Rocketseat :rocket: na NLW Return</p>
